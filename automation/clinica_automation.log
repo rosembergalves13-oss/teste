@@ -1,0 +1,48 @@
+2026-08-28 20:26:21,502 - INFO - ============================================================
+2026-08-28 20:26:21,503 - INFO - INICIANDO FLUXO DE CONFIRMAÇÃO DE CONSULTAS
+2026-08-28 20:26:21,503 - INFO - ============================================================
+2026-08-28 20:26:49,231 - INFO - Navegador iniciado com sucesso
+2026-08-28 20:26:49,234 - INFO - === INICIANDO LOGIN ===
+2026-08-28 20:26:49,235 - INFO - Tentativa 1 de 3
+2026-08-28 20:26:49,236 - INFO - Abrindo URL: https://avanceic.simplificagestao.com.br/ords/r/gestao/app/login
+2026-08-28 20:27:10,162 - WARNING - Elemento não encontrado: input[name='username'] (css)
+2026-08-28 20:27:20,888 - WARNING - Elemento não encontrado: input[name='password'] (css)
+2026-08-28 20:27:31,613 - WARNING - Elemento não encontrado: button[type='submit'] (css)
+2026-08-28 20:27:34,625 - INFO - Login realizado com sucesso!
+2026-08-28 20:27:34,625 - INFO - === NAVEGANDO PARA AGENDA ===
+2026-08-28 20:27:44,825 - WARNING - Elemento não encontrado: a[href*='agenda'] (css)
+2026-08-28 20:27:55,060 - WARNING - Elemento não encontrado: a[href*='schedule'] (css)
+2026-08-28 20:27:55,075 - WARNING - Elemento não encontrado: nav a:nth-child(2) (xpath)
+2026-08-28 20:28:05,280 - WARNING - Elemento não encontrado: //a[contains(text(),'Agenda')] (xpath)
+2026-08-28 20:28:15,528 - WARNING - Elemento não encontrado: //a[contains(text(),'agenda')] (xpath)
+2026-08-28 20:28:15,529 - INFO - Abrindo URL: https://avanceic.simplificagestao.com.br/ords/r/gestao/app/agenda
+2026-08-28 20:28:18,438 - INFO - === SELECIONANDO PRÓXIMO DIA ÚTIL ===
+2026-08-28 20:28:18,439 - INFO - Data alvo: 29/08/2026
+2026-08-28 20:28:18,449 - ERROR - Erro ao selecionar data: Message: javascript error: missing ) after argument list
+  (Session info: chrome=151.0.7922.175)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70ef1abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff70ef1ac10+15210]
+	chromedriver!(No symbol) [0x7ff70ea45d6d]
+	chromedriver!(No symbol) [0x7ff70ea4dcd1]
+	chromedriver!(No symbol) [0x7ff70ea5101f]
+	chromedriver!(No symbol) [0x7ff70eaefe82]
+	chromedriver!(No symbol) [0x7ff70eac9d0a]
+	chromedriver!(No symbol) [0x7ff70eaeec0b]
+	chromedriver!(No symbol) [0x7ff70ea937cc]
+	chromedriver!(No symbol) [0x7ff70ea946f3]
+	chromedriver!GetHandleVerifier [0x7ff70f53b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff70f535ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff70f55bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff70ef38ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff70ef4147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff70ef24d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff70ef24ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff70ef07d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffcec9eccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffceec8ad6c+2c]
+
+2026-08-28 20:28:20,450 - INFO - === EXTRAINDO DADOS DOS PACIENTES ===
+2026-08-28 20:28:20,499 - WARNING - Nenhum paciente encontrado na agenda
+2026-08-28 20:28:20,499 - INFO - Nenhum paciente pendente para hoje
+2026-08-28 20:29:18,235 - INFO - Navegador fechado

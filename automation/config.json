@@ -1,0 +1,12 @@
+{
+    "URL_LOGIN": "https://avanceic.simplificagestao.com.br/ords/r/gestao/app/login",
+    "URL_AGENDA": "https://avanceic.simplificagestao.com.br/ords/r/gestao/app/agenda",
+    "LINK_CONFIRMACAO": "https://curt.link/YoPri",
+    "USUARIO": "rosembergalves1323@gmail.com",
+    "SENHA": "1234567",
+    "WHATSAPP_NUMERO": "85991648598",
+    "MEDICA": "DRA LENE ALVES",
+    "MAX_TENTATIVAS": 3,
+    "TEMPO_ESPERA": 30,
+    "TEMPO_ENTRE_MENSAGENS": 5
+}

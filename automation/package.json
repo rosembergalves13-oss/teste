@@ -1,0 +1,22 @@
+{
+  "name": "clinica-automacao",
+  "version": "1.0.0",
+  "description": "Automação de confirmação de consultas da clínica",
+  "main": "index.js",
+  "scripts": {
+    "screenshot": "node scripts/screenshot.js",
+    "analisar": "node scripts/analisar-site.js",
+    "login": "node scripts/login.js",
+    "agenda": "node scripts/agenda.js",
+    "whatsapp": "node scripts/whatsapp.js",
+    "start": "node index.js"
+  },
+  "keywords": ["automation", "clinic", "whatsapp"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
